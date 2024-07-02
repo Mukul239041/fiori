@@ -1,0 +1,8 @@
+{
+  "generator-anubhav-basicfiori": {
+    "projectName": "01myfiorilikeapp",
+    "newDir": true,
+    "projectNamespace": "mukul.app",
+    "projectNamespaceModule": "mukul/app"
+  }
+}

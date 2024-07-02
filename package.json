@@ -1,0 +1,28 @@
+{
+  "name": "01myfiorilikeapp",
+  "version": "1.0.0",
+  "description": "anubhavtrainings.com",
+  "main": "index.js",
+  "scripts": {
+    "start-old": "ui5 serve --open index.html",
+    "start": "fiori run ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anubhav",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/approuter": "^8.5.1",
+    "@sap/html5-repo-mock": "^1.5.3"
+  },
+  "devDependencies": {
+    "@sap/ux-specification": "^1.120.13",
+    "@sap/ux-ui5-tooling": "^1.14.0",
+    "ui5-middleware-simpleproxy": "^3.2.16"
+  },
+  "ui5": {
+    "dependencies": [
+      "@sap/ux-ui5-tooling",
+      "ui5-middleware-simpleproxy"
+    ]
+  }
+}
